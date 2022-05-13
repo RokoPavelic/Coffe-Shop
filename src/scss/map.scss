@@ -1,0 +1,19 @@
+.map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, white 90%, #343a40 10%);
+  border: none !important;
+  margin-bottom: -0.5em;
+
+  .map_container {
+    width: 80%;
+    border: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .map_container {
+    height: 15em;
+  }
+}
